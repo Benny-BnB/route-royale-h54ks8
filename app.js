@@ -494,7 +494,13 @@
       body: '<div class="party">🏆</div><h2>' + esc(F.honneurTitre) + '</h2>' +
         '<div class="card honneur">' + row(jus, F.jus) + row(dec, F.decrets) + row(pas, F.passes) + '</div>' +
         '<div class="card message"><p class="m-title">' + esc(M.titre) + '</p>' +
-        M.paragraphes.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') +
+        M.paragraphes.map(function (p) {
+          // un bloc peut etre un paragraphe (texte) ou une liste { liste: [ { nom, texte } ] }
+          if (typeof p === 'string') return '<p>' + esc(p) + '</p>';
+          return '<ul class="recap-list">' + p.liste.map(function (it) {
+            return '<li><strong>' + esc(it.nom) + '</strong>' + esc(it.texte) + '</li>';
+          }).join('') + '</ul>';
+        }).join('') +
         '<p class="m-sign">' + esc(M.signature) + '</p></div>',
       actions: '<a class="btn secondary" href="#/carte">' + esc(F.revoir) + '</a>'
     };

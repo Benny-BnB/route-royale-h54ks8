@@ -1,6 +1,6 @@
 // sw.js : service worker, pour que l'app marche hors ligne après un premier chargement.
 // IMPORTANT : change le numéro de VERSION à chaque mise en ligne, sinon les téléphones gardent l'ancienne version.
-const VERSION = 'ma-non-v1';
+const VERSION = 'ma-non-v2';
 
 const FILES = [
   './',

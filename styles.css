@@ -402,6 +402,18 @@ a.stop-item:active { transform: translateY(2px); }
 .h-com { font-size: 16px; color: var(--muted); }
 .message { display: flex; flex-direction: column; gap: 14px; }
 .message p { font-size: 22px; line-height: 1.45; font-weight: 600; }
+.recap-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.recap-list li {
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-left: 5px solid var(--pink);
+  border-radius: 6px 14px 14px 6px;
+  background: rgba(216, 27, 96, 0.08);
+}
+.recap-list strong { display: block; font-size: 17px; font-weight: 800; color: var(--pink); text-transform: uppercase; letter-spacing: 0.5px; }
+@media (prefers-color-scheme: dark) { .recap-list strong { color: #ff8fb3; } }
 .message .m-title { font-size: 30px; font-weight: 800; }
 .message .m-sign { font-size: 26px; font-weight: 800; text-align: right; }
 
