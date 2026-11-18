@@ -13,7 +13,7 @@ const CONTENT = {
   appNameCourt: "Ma Non",
 
   // Numéro de version affiché discrètement sur l'écran d'accueil (à garder identique à VERSION dans sw.js)
-  version: "3",
+  version: "4",
 
   // Vocabulaire (section 2 du brief)
   vocab: {
@@ -781,31 +781,14 @@ const CONTENT = {
     indice: "Il reste une chose : te ramener chez toi sans que la reine disparaisse en route.",
     titre: "Ma Non 🤍",
     paragraphes: [
-      "Tu viens de passer la journée à traverser la Belgique avec moi : des histoires absurdes, des décrets royaux, du jus du trône quand le décret était trop gros. Quelqu'un qui n'a plus de ressources ne fait pas ça. Quelqu'un qui a perdu un peu le moral en route, oui. Et qui sait encore en rire, c'est exactement ce qu'il faut.",
-      "Tu me dis que la quarantaine te fait douter. Alors voici le dossier de la défense, stop par stop. Les stops qu'on a passés y sont aussi : même une reine a le droit de zapper.",
-      {
-        liste: [
-          { nom: "L'Atomium", texte: "Prévu pour six mois, toujours debout 68 ans plus tard, sur des béquilles. Un passage à vide, ça finit en attraction touristique." },
-          { nom: "La basilique de Koekelberg", texte: "64 ans de chantier, deux guerres, et toujours « encore deux minutes, on arrive ». Le talent, c'est de ne pas abandonner." },
-          { nom: "Dilbeek", texte: "Selon la tradition, un empereur a reçu un lapin au lieu d'un lièvre, et tout un village en porte encore le surnom. Une bêtise bien placée, c'est une gloire qui dure." },
-          { nom: "Sint-Anna-Pede", texte: "Tout le monde suit le même guide, tout le monde finit dans le même fossé. Regarde où tu mets les pieds." },
-          { nom: "Gaasbeek", texte: "Une marquise copie un château français, le déguise en Moyen Âge qui n'a jamais existé, et ça s'appelle du patrimoine. Fake it until it's classé." },
-          { nom: "Beersel", texte: "Bruxelles a cassé le château, puis payé la réparation, et ça a fini en usine de coton. Ça arrive à tout le monde." },
-          { nom: "Halle", texte: "Selon la légende, la Vierge noire a reçu des boulets de canon en pleine robe, et on lui a construit une basilique. Ce qui t'a blessée peut devenir ce que tu montres avec fierté." },
-          { nom: "Lembeek", texte: "Le meilleur travail de la brasserie est fait par des microbes sauvages entrés de nuit par la fenêtre. Parfois, il suffit de laisser la fenêtre ouverte et de patienter." },
-          { nom: "Steenkerque", texte: "D'après Voltaire, des soldats surpris en train de s'habiller ont lancé la mode de la cravate. Une erreur portée avec aplomb, ça s'appelle un style." },
-          { nom: "Enghien", texte: "Une horloge qui s'arrête 11 heures pour gagner une heure. La logique est dingue, mais elle marche depuis 1865. Si ton emploi du temps a besoin d'une pause, tu sais quoi faire." },
-          { nom: "Silly", texte: "Un village qui s'appelle Silly a le revenu moyen le plus élevé du Hainaut. Faire n'importe quoi paie, pas toujours, mais assez souvent pour que ça se tente." },
-          { nom: "Ath, l'hôtel de ville", texte: "Une ville entière dépend d'un gamin de 8 ans qui lance une balle dans un trou. On est tous un David à qui on demande trop. Heureusement, il y a la tarte." },
-          { nom: "Ath, Saint-Julien", texte: "Goliath, célibataire pendant plus de deux siècles, marié sur décision de la mairie, pantalon brûlé la veille. Si tu te trouves compliquée, il y a pire." },
-          { nom: "La tour Burbant", texte: "Debout depuis plus de 850 ans sans une seule séance de coaching." }
-        ]
-      },
-      "Résumé : tu es dans la quarantaine. L'Atomium a 68 ans, des béquilles et 600.000 visiteurs par an. La tour Burbant a plus de 850 ans et personne ne lui a jamais demandé d'arrêter. Tu as le temps d'être aussi indestructible, et tu as de bien meilleures jambes.",
-      "Ce que je sais de toi : tu es profondément une bonne personne. Je l'ai su dès le premier soir.",
-      "Il y a une histoire que j'aime bien : un ami écrit à un autre \"Tu as huit minutes ?\". Rien de plus. C'est un code entre amis qui veut dire : là, j'ai besoin d'un espace sûr.",
+      "Tu viens de passer la journée à traverser la Belgique avec moi : des histoires absurdes, des décrets royaux, du jus du trône quand le décret était trop gros.",
+      "Aujourd'hui, tu as constaté de tes propres yeux qu'un passage à vide, c'est censé être temporaire ; qu'il ne faut pas lâcher la truelle, même au bout de 64 ans ; qu'une bêtise bien placée fait une gloire qui dure ; que quand tout le monde suit le même guide, mieux vaut regarder où tu mets les pieds ; que tu peux faire semblant jusqu'à ce que ça devienne du patrimoine ; que ça arrive à tout le monde de se faire casser ; et que ce qui t'a blessée peut devenir ce que tu montres avec fierté.",
+      "Tu as vu aussi qu'il suffit parfois de laisser la fenêtre ouverte et de patienter ; qu'une erreur portée avec aplomb devient un style ; que si ton emploi du temps a besoin d'une pause, tu sais quoi faire : rien, pendant 11 heures ; que faire n'importe quoi paie assez souvent pour que ça se tente ; que tu es un David à qui on demande trop ; et que si ta vie te semble compliquée, il y a pire : Goliath.",
+      "Et côté quarantaine : l'Atomium a 68 ans, des béquilles et 600.000 visiteurs par an. La tour Burbant a plus de 850 ans et personne ne lui a jamais demandé d'arrêter. Tu as le temps d'être aussi indestructible, et tu as de bien meilleures jambes.",
+      "Et puis il y a ce que je sais de toi, et que je ne dis pas souvent à voix haute : tu es profondément une bonne personne. Je l'ai su dès le premier soir. Je dis ça, je dis rien.",
+      "Il y a une histoire que j'aime bien : un ami écrit à un autre \"Tu as huit minutes ?\". Rien de plus. Pour moi, ça veut dire une seule chose : j'ai besoin de toi.",
       "Je crois à ça. Huit minutes de l'attention d'un proche, ça suffit pour se rebooster et ne plus se sentir seul. Pas besoin de solution ni de grand discours : juste quelqu'un qui est vraiment là.",
-      "Et huit minutes, tout le monde les a. N'importe qui peut quitter un meeting pendant huit minutes, même avec l'agenda le plus chargé du monde. Personne n'est trop occupé pour ça. Si quelqu'un te dit le contraire, c'est que son meeting n'était pas si important.",
+      "N'importe qui peut quitter un meeting pendant huit minutes, même avec l'agenda le plus chargé du monde.",
       "Alors voilà : j'aurai toujours huit minutes pour toi. Ce soir, demain, ou dans trois ans. Tu m'écris \"Tu as huit minutes ?\", et je quitte ce que je suis en train de faire. Même un meeting. Surtout un meeting.",
       "Les Athois ne périront pas. Toi non plus."
     ],
