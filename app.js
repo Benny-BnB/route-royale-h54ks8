@@ -33,14 +33,14 @@
   if (wantsDebug) history.replaceState(null, '', location.pathname + location.search + '#/');
 
   // ---------- Etat sauvegarde (localStorage, cle versionnee) ----------
-  var SKEY = 'manon-roadtrip-v1' + (DEBUG ? '-debug' : '');
-  function fresh() { return { version: 1, demarre: false, stops: {} }; }
+  var SKEY = 'manon-roadtrip-v2' + (DEBUG ? '-debug' : '');
+  function fresh() { return { version: 2, demarre: false, stops: {} }; }
   function load() {
     try {
       var raw = localStorage.getItem(SKEY);
       if (raw) {
         var s = JSON.parse(raw);
-        if (s && s.version === 1 && s.stops) return s;
+        if (s && s.version === 2 && s.stops) return s;
       }
     } catch (e) { /* tant pis : l'app marche sans sauvegarde */ }
     return fresh();

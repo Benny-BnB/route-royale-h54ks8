@@ -13,7 +13,7 @@ const CONTENT = {
   appNameCourt: "Ma Non",
 
   // Numéro de version affiché discrètement sur l'écran d'accueil (à garder identique à VERSION dans sw.js)
-  version: "4",
+  version: "5",
 
   // Vocabulaire (section 2 du brief)
   vocab: {
@@ -785,8 +785,7 @@ const CONTENT = {
       "Aujourd'hui, tu as constaté de tes propres yeux qu'un passage à vide, c'est censé être temporaire ; qu'il ne faut pas lâcher la truelle, même au bout de 64 ans ; qu'une bêtise bien placée fait une gloire qui dure ; que quand tout le monde suit le même guide, mieux vaut regarder où tu mets les pieds ; que tu peux faire semblant jusqu'à ce que ça devienne du patrimoine ; que ça arrive à tout le monde de se faire casser ; et que ce qui t'a blessée peut devenir ce que tu montres avec fierté.",
       "Tu as vu aussi qu'il suffit parfois de laisser la fenêtre ouverte et de patienter ; qu'une erreur portée avec aplomb devient un style ; que si ton emploi du temps a besoin d'une pause, tu sais quoi faire : rien, pendant 11 heures ; que faire n'importe quoi paie assez souvent pour que ça se tente ; que tu es un David à qui on demande trop ; et que si ta vie te semble compliquée, il y a pire : Goliath.",
       "Et côté quarantaine : l'Atomium a 68 ans, des béquilles et 600.000 visiteurs par an. La tour Burbant a plus de 850 ans et personne ne lui a jamais demandé d'arrêter. Tu as le temps d'être aussi indestructible, et tu as de bien meilleures jambes.",
-      "Et puis il y a ce que je sais de toi, et que je ne dis pas souvent à voix haute : tu es profondément une bonne personne. Je l'ai su dès le premier soir. Je dis ça, je dis rien.",
-      "Il y a une histoire que j'aime bien : un ami écrit à un autre \"Tu as huit minutes ?\". Rien de plus. Pour moi, ça veut dire une seule chose : j'ai besoin de toi.",
+      "Il y a une histoire que j'aime bien : un ami écrit à un autre \"Tu as huit minutes ?\". Rien de plus. Ça veut dire une seule chose : j'ai besoin de toi.",
       "Je crois à ça. Huit minutes de l'attention d'un proche, ça suffit pour se rebooster et ne plus se sentir seul. Pas besoin de solution ni de grand discours : juste quelqu'un qui est vraiment là.",
       "N'importe qui peut quitter un meeting pendant huit minutes, même avec l'agenda le plus chargé du monde.",
       "Alors voilà : j'aurai toujours huit minutes pour toi. Ce soir, demain, ou dans trois ans. Tu m'écris \"Tu as huit minutes ?\", et je quitte ce que je suis en train de faire. Même un meeting. Surtout un meeting.",
