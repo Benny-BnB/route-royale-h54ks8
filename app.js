@@ -296,7 +296,8 @@
       body: '<div class="center">' +
         '<img class="logo" src="icons/icon-512.png" width="512" height="512" alt="Logo : une couronne avec un coeur">' +
         '<h2 class="big">' + esc(A.titre) + '</h2>' +
-        '<p class="lead">' + esc(A.texte) + '</p></div>',
+        '<p class="lead">' + esc(A.texte) + '</p>' +
+        '<p class="note">Version ' + esc(C.version) + '</p></div>',
       actions: state.demarre
         ? '<button class="btn big" data-action="resume">' + esc(A.continuer) + '</button><a class="btn secondary" href="#/carte">' + esc(A.voirCarte) + '</a>'
         : '<button class="btn big" data-action="start">' + esc(A.bouton) + '</button>'

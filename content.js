@@ -12,6 +12,9 @@ const CONTENT = {
   appName: "Ma Non 🤍",
   appNameCourt: "Ma Non",
 
+  // Numéro de version affiché discrètement sur l'écran d'accueil (à garder identique à VERSION dans sw.js)
+  version: "3",
+
   // Vocabulaire (section 2 du brief)
   vocab: {
     gage: "Décret royal 📜",
